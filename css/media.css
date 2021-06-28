@@ -7,7 +7,7 @@
 }
 
 @media (max-width: 1440px) {
-    .card { 
+    .card {
         padding-left: 50px;
         padding-right: 50px;
     }
@@ -20,7 +20,7 @@
     .card-left__description {
         margin-right: 25px;
     }
-    
+
     .card-left__btn {
         margin-right: 20px;
     }
@@ -116,7 +116,7 @@
     }
 
     .tab-item__image {
-        background-image: url(../img/how-img-mobile.png);
+        background-image: url(../img/how-img-mobile.webp);
         background-position: right center;
         background-repeat: no-repeat;
         background-size: contain;
@@ -137,7 +137,7 @@
     .header__logo {
         display: none;
     }
-    
+
     .header__logo_tablet {
         display: block;
         margin-right: 13px;
@@ -151,7 +151,7 @@
         margin-bottom: 58px;
     }
 
-    .section-hero { 
+    .section-hero {
         position: relative;
     }
 
@@ -212,7 +212,7 @@
     }
 
     .card-left {
-        background-image: url(../img/about-img-1024.png);
+        background-image: url(../img/about-img-1024.webp);
         padding-top: 467px;
         margin-bottom: 48px;
     }
@@ -327,7 +327,7 @@
     }
 
     .card-left {
-        background-image: url(../img/about-img-768.png);
+        background-image: url(../img/about-img-768.webp);
         padding-top: 477px;
         margin-bottom: 38px;
     }
@@ -377,7 +377,7 @@
 
     .tab-item__image {
         display: block;
-        background-image: url(../img/how-img-768.png);
+        background-image: url(../img/how-img-768.webp);
         width: 100%;
         padding-top: 43%;
     }
@@ -518,6 +518,18 @@
         width: 162px;
     }
 
+    .swiper-slide_one {
+      background-image: url(../img/low-angle-photo-of-balconies.webp);
+    }
+
+    .swiper-slide_two {
+      background-image: url(../img/low-angle-photo-of-balconies.webp);
+    }
+
+    .swiper-slide_three {
+      background-image: url(../img/low-angle-photo-of-balconies.webp);
+    }
+
     .swiper-pagination-bullet {
         display: none;
     }
@@ -545,7 +557,7 @@
 
     .card-left__background-mobile {
         display: block;
-        background-image: url(../img/about-img-320.png);
+        background-image: url(../img/about-img-320.webp);
         background-repeat: no-repeat;
         background-size: contain;
         width: 100%;
@@ -623,7 +635,7 @@
       }
 
     .tab-item__image {
-        background-image: url(../img/how-img-320.png);
+        background-image: url(../img/how-img-320.webp);
         padding-top: 55%;
     }
 

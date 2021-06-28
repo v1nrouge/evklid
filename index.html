@@ -4,19 +4,25 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Евклид</title>
-  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
-  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link rel="preload" href="fonts/Montserrat-Regular.woff" as="font" crossorigin>
+  <link rel="preload" href="fonts/Montserrat-SemiBold.woff" as="font" crossorigin>
+  <link rel="preload" href="fonts/Montserrat-Bold.woff" as="font" crossorigin>
+  <link rel="preload" href="fonts/Montserrat-ExtraBold.woff" as="font" crossorigin>
+  <link rel="preload" href="css/style.min.css" as="style">
+  <link rel="preload" href="css/media.css" as="style">
+
+  <link rel="stylesheet" href="vendors/swiper-bundle.min.css" />
   <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.min.css">
   <link rel="stylesheet" href="css/media.css">
 </head>
 <body>
   <header class="header">
     <div class="container header-container">
       <span class="header__burger" id="burger"></span>
-      <img class="logo header__logo" src="img/logo.svg" alt="Логотип Евклид">
-      <img class="header__logo_tablet" src="img/logo-1024.svg" alt="Логотип Евклид">
-      <img class="header__logo_mobile" src="img/logo-320.svg" alt="Логотип Евклид">
+      <img class="logo header__logo" src="img/logo.svg" alt="Логотип Евклид" width="224" height="72">
+      <img class="header__logo_tablet" src="img/logo-1024.svg" alt="Логотип Евклид" width="150" height="48">
+      <img class="header__logo_mobile" src="img/logo-320.svg" alt="Логотип Евклид" width="97" height="31">
       <nav class="nav">
         <ul class="nav__list">
           <li class="nav__item"><a class="nav__link" href="">О нас</a></li>
@@ -214,8 +220,8 @@
     <footer class="footer">
       <div class="container footer-container">
         <div class="footer-left">
-          <img class="footer-left__logo" src="img/footer-logo.svg" alt="Логотип Евклид">
-          <img class="footer-left__logo-mobile" src="img/logo-footer-320.svg" alt="Логотип Евклид">
+          <img class="footer-left__logo" src="img/footer-logo.svg" alt="Логотип Евклид" width="224" height="72">
+          <img class="footer-left__logo-mobile" src="img/logo-footer-320.svg" alt="Логотип Евклид" width="131" height="42">
           <ul class="footer-left__list-nav footer-nav">
             <li class="footer-nav__item"><a class="footer-nav__link" href="">О нас</a></li>
             <li class="footer-nav__item"><a class="footer-nav__link" href="">Проекты</a></li>
@@ -254,10 +260,9 @@
     </footer>
   </main>
 
-  <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
-  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-  <script src="js/main.js"></script>
+  <script src="vendors/swiper-bundle.min.js"></script>
+  <script src="vendors/jquery.min.js"></script>
+  <script src="vendors/jquery-ui.min.js"></script>
+  <script src="js/main.min.js"></script>
 </body>
 </html>

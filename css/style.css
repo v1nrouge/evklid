@@ -205,6 +205,9 @@ p {
 .section-hero {
   display: flex;
   flex-direction: column;
+  /* background-image: url(../img/main-banner.png);
+  background-repeat: no-repeat;
+  background-size: cover; */
 }
 
 .swiper-container {
@@ -233,16 +236,16 @@ p {
 }
 
 .swiper-slide_one {
-  background-image: url(../img/main-banner.png);
+  background-image: url(../img/main-banner.webp);
 }
 
 .swiper-slide_two {
-  background-image: url(../img/main-banner-2.png);
+  background-image: url(../img/main-banner-2.webp);
 
 }
 
 .swiper-slide_three {
-  background-image: url(../img/main-banner-3.png);
+  background-image: url(../img/main-banner-3.webp);
 }
 
 .swiper-pagination-bullet {
@@ -341,7 +344,7 @@ p {
   flex: 1 1 0;
   position: relative;
   margin-right: 30px;
-  background-image: url(../img/about-img.jpg);
+  background-image: url(../img/about-img.webp);
   background-repeat: no-repeat;
   background-size: cover;
   width: 870px;
@@ -396,6 +399,7 @@ p {
 .card-right {
   display: flex;
   flex-direction: column;
+  /* flex: 1 1 0; */
   flex-basis: 50%;
 }
 
@@ -551,19 +555,19 @@ p {
 }
 
 .tab-item__image-first {
-  background-image: url(../img/how-img.png);
+  background-image: url(../img/how-img.webp);
 }
 
 .tab-item__image-second {
-  background-image: url(../img/how-img-2.png);
+  background-image: url(../img/how-img-2.webp);
 }
 
 .tab-item__image-third {
-  background-image: url(../img/how-img-3.png);
+  background-image: url(../img/how-img-3.webp);
 }
 
 .tab-item__image-fourth {
-  background-image: url(../img/how-img-4.png);
+  background-image: url(../img/how-img-4.webp);
 }
 
 /* faq */

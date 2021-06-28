@@ -45,7 +45,7 @@ let burger = document.querySelector('#burger');
 let menu = document.querySelector('#menu');
 
 burger.addEventListener('click', function() {
-    console.log('menu');
+    // console.log('menu');
     menu.classList.toggle('is-shown');
 })
 
